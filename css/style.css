@@ -1,0 +1,138 @@
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ccc;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+header img {
+  max-width: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+header div {
+  color: #333;
+  text-align: center;
+}
+
+header h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+header p {
+  font-size: 18px;
+  margin: 0;
+}
+
+body > h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
+.verse,
+#future-verse,
+#meek-mill-verse {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #777;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.artist {
+  font-weight: normal;
+  color: #999;
+}
+
+.verse,
+#post-chorus-section,
+#future-verse,
+#meek-mill-verse {
+  background-color: #ccc;
+  font-family: 'Roboto', sans-serif;
+}
+
+#chorus-section .chorus-line {
+  font-size: 16px;
+  margin: 5px 0;
+  letter-spacing: 0.5px;
+  color: #777;
+  line-height: 1.2;
+}
+
+#post-chorus-section .post-chorus-line {
+  font-size: 16px;
+  margin: 5px 0;
+  letter-spacing: 0.5px;
+  color: #777;
+  line-height: 1.2;
+}
+
+#post-chorus-section .post-chorus-line {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+#post-chorus-section .post-chorus-line:last-child {
+  font-size: 20px;
+  letter-spacing: 9px;
+  color: #ff0000;
+}
+
+#chorus-section .section-title {
+  font-weight: normal;
+}
+
+#post-chorus-section .section-title {
+  font-weight: normal;
+  color: #999;
+}
+
+.special-word {
+  letter-spacing: 4px;
+  font-size: 24px;
+  color: #ff6600;
+}
+
+#meek-mill-verse .verse-line {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+#meek-mill-verse #line111,
+#meek-mill-verse #line112 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #070707;
+  letter-spacing: 4px;
+}
+
+.custom-word {
+  letter-spacing: 3px;
+  font-size: 20px;
+  color: #ff6600;
+  font-weight: bold;
+}
+
+#drake-verse #line5 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff0000;
+  letter-spacing: 2px;
+}
+
+.broadd {
+  color: #007bff;
+  letter-spacing: 3px;
+}
